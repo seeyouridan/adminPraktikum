@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	font-family: arial;
+}
+
+table {
+	border-collapse: collapse;
+	margin: auto;
+}
+
+h2 {
+	text-align: center;
+	font-size: 24pt;
+}
+
+td {
+	padding: 10px;
+}
+
+tr td input {
+	width: 500px;
+	height: 30px;
+	padding: 0px 10px;
+}
+
+textarea {
+	width: 500px;
+	height: 50px;
+	padding: 10px;
+}
+
+nav p {
+	padding: 20px;
+	margin: 0;
+	background-color: #25252b;
+	color: white;
+	font-size: 14pt;
+}
+
+section, h3 {
+	padding: 10px 0px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+h3 {
+	font-size: 16pt;
+	text-align: center;
+}
+
+h4 {
+	margin: 20px auto;
+	width: 71.4%;
+}
+
+tr td button, button{
+	background-color: #1976ff;
+	padding: 12px 15px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+tr td button:first-child {
+	background-color: gray;
+}
+
+.btnAksi:first-child {
+	padding: 8px 15px;
+	border-radius: 5px;
+	background-color: orange;
+	color: black;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+.btnAksi:nth-child(2) {
+	padding: 8px 15px;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+}
+
+section table {
+	margin: auto;
+}
+
+th {
+	background-color: #9ec5fe;
+	text-align: left;
+	border: 1px solid #66a4ff;
+}
+
+th:first-child {
+	width: 40px;
+}
+
+th:nth-child(2) {
+	width: 150px;
+}
+
+th:nth-child(3) {
+	width: 300px;
+}
+
+th:nth-child(4) {
+	width: 100px;
+}
+
+th:nth-child(5) {
+	width: 180px;
+}
+
+th:nth-child(6) {
+	width: 200px;
+}
